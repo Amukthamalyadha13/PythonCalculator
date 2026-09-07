@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Amukthamalyadha13/Python_proj.git'
+                    url: 'https://github.com/Amukthamalyadha13/PythonCalculator.git'
             }
         }
 
